@@ -9,8 +9,6 @@ let upperCaseCurrentUser = currentUser.toUpperCase();
 // essentially the same but everything toUpperCase
 let excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${upperCaseCurrentUser}!`;
 
-
-
 //make firstInitial and restOfName
 const firstInitial = currentUser[0];
 const restOfName = currentUser.slice(1);
